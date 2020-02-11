@@ -1,7 +1,7 @@
 #Основная система
-	Клонируем ссылку на репозиторий:
+Клонируем ссылку на репозиторий
 
-		'git clone https://git.involta.ru/univer/Inuniver.ru.git'
+`git clone https://git.involta.ru/univer/Inuniver.ru.git`
 
 	Устанавливаем проект:
 
