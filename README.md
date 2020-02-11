@@ -1,4 +1,6 @@
-#Основная система
+#Установка проекта Мой университет
+
+##Основная система
 
 ###Клонируем ссылку на репозиторий
 
@@ -46,7 +48,7 @@
 
 `chown -R www-data:www-data src applications/myuni/logs applications/webinars/logs applications/myuni/cache`
 
-#Установка базы данных
+##Установка базы данных
 
 `sudo -u postgres psql`
 	
@@ -72,7 +74,7 @@
 
 ###Загрузить файл с логотипом университета в /media/imgs/ . Файл должен иметь название logo_100.png
 
-#Установка и настройка nodejs
+##Установка и настройка nodejs
 		
 `sudo apt install nodejs`
 
@@ -118,7 +120,7 @@
 
 `30 22 * * * https://inuniver.ru/cron/sendingMessages?key=866a8a5205b9e6cdd08be349d03fc8b7b8c3c12c`
 
-#Установка Big Blue Button
+##Установка Big Blue Button
 		
 ###Изменить подключение к (свойства $secret и $apiUrl) BBB в файлах: 
 
@@ -126,7 +128,7 @@
 
 ###/applications/webinars/libraries/Webinars_api.php
 
-#Учетная запись администратора
+##Учетная запись администратора
 
 `admin@inuniver.ru`
 
